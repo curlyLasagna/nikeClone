@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background: #fff;
+  color: #111;
+}
+
+.header-group {
+  position: relative;
+  top: 45px !important;
+}
+
+.brands {
+  display: block;
+}
+
+.nav-in-header {
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.covid-banner {
+  background: #f7f7f7;
+  color: #242424;
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  width: 100%;
+  text-align: center;
+  height: 45px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  border-bottom: 1px solid lightgrey;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  background: inherit;
+  text-decoration: underline;
+}
+
+.top-section {
+    display: block;
+}
+
+.left-side {
+    margin-right: auto;
+}
+
+.right-side {
+    margin-left: auto;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: #757575;
+}
+
+.sign-up:hover {
+  color: #242424;
+}
+
+#ball {
+  color: #757575;
+}
+
+#ball:hover {
+    color: red;
+}

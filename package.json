@@ -1,0 +1,23 @@
+{
+  "name": "nikeclone",
+  "version": "1.0.0",
+  "description": "Nike website clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curlyLasagna/nikeClone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curlyLasagna/nikeClone/issues"
+  },
+  "homepage": "https://github.com/curlyLasagna/nikeClone#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "swiper": "^5.4.5"
+  }
+}
