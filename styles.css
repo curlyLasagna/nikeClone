@@ -7,28 +7,19 @@
   color: #111;
 }
 
-.header-group {
-  position: relative;
-  top: 45px !important;
-}
-
-.brands {
-  display: block;
-}
-
-.nav-in-header {
-  width: 100%;
-  padding-left: 8px;
-  padding-right: 8px;
+a {
+  color: inherit;
+  background: inherit;
+  text-decoration: underline;
 }
 
 .covid-banner {
   background: #f7f7f7;
   color: #242424;
   padding: 10px;
-  position: fixed;
+  position: absolute;
   top: 0px;
-  z-index: 1000;
+  /* z-index: 1000; */
   width: 100%;
   text-align: center;
   height: 45px;
@@ -38,37 +29,33 @@
   box-sizing: border-box;
 }
 
-a {
-  color: inherit;
-  background: inherit;
-  text-decoration: underline;
+.navbar {
+  position: relative;
+  top: 45px !important;
 }
 
-.top-section {
-    display: block;
+.mx-auto {
+  display: inline-flex;
 }
 
-.left-side {
-    margin-right: auto;
+.jumbotron {
+  text-align: center;
 }
 
-.right-side {
-    margin-left: auto;
-}
-
-.sign-up {
+#sign-up {
   text-decoration: none;
   color: #757575;
 }
 
-.sign-up:hover {
+#sign-up:hover {
   color: #242424;
 }
 
 #ball {
   color: #757575;
+  text-decoration: none;
 }
 
 #ball:hover {
-    color: red;
+  color: red;
 }

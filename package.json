@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/curlyLasagna/nikeClone#readme",
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "font-awesome": "^4.7.0",
     "swiper": "^5.4.5"
   }
