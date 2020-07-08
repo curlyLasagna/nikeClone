@@ -11,32 +11,34 @@
     <link rel="stylesheet" href="node_modules/swiper/css/swiper.min.css" />
     <link
       rel="stylesheet"
-      href="node_modules/font-awesome/css/font-awesome.css"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
     />
-    <link rel="icon"
+    " <link rel="icon"
     href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTwOFZTzEYPyHAGQXliSP-NJi1oDxuIekWkow&usqp=CAU"
     ">
     <title>Nike. Just Do It. Nike.com</title>
   </head>
   <body>
     <div class="covid-banner">
-      Nike Statement on COVID-19 <a href="#">View Here</a>
+      Nike Statement on COVID-19 <a class="links" href="#">View Here</a>
     </div>
-    <div class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navbar navbar-expand-lg">
       <div class="float-left">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a id="sign-up" class="nav-link" href="#">Join us</a>
           </li>
           <li class="nav-item">
-            <a id="jordans" class="nav-link" href="#"
-              >Ball<i class="fas fa-basketball-ball"></i
+            <a class="nav-link" href="#"
+              ><i id="jordans" class="fas fa-basketball-ball"></i
             ></a>
           </li>
           <li class="nav-item">
-            <a id="converse" class="nav-link" href="#"
-              >Converse<i class="fas fa-basketball-ball"></i
-            ></a>
+            <a class="nav-link" href="#"
+              >Converse <i class="fas fa-arrow-right"></i>
+            </a>
           </li>
         </ul>
       </div>
@@ -46,9 +48,13 @@
             <a class="nav-link" href="">Join/Log In To Nike Member Profile</a>
           </li>
           <li class="nav-item"><a class="nav-link" href="">Help</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Cart</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="">United States</a>
+            <a class="nav-link" href=""><i class="fas fa-shopping-cart"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=""
+              ><i class="fas fa-map-marker-alt"></i> United States</a
+            >
           </li>
         </ul>
       </div>
@@ -70,12 +76,75 @@
         <li class="nav-item"><a href="" class="nav-link">Sale</a></li>
       </ul>
       <form action="" class="form-inline my-2my-lg-0 my-lg-0">
-        <input type="text" class="form-control mr-sm-2" type="search" placeholder="Search">
+        <input
+          type="text"
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+        />
       </form>
     </div>
     <div class="jumbotron jumbotron-fluid">
-        <span>Free Shipping & 60-Day Free Returns</span>
-        <p><a href="">Join Now</a></p>
+      <span>Free Shipping & 60-Day Free Returns</span>
+      <p><a href="" class="links">Join Now</a></p>
+    </div>
+    <div class="container">
+      <div class="home-pic">
+        <img
+          src="https://static.nike.com/a/images/f_auto/dpr_1.0/w_1145,c_limit/09455267-c70b-4666-98eb-a4d62432b977/nike-just-do-it.jpg"
+          alt=""
+        />
+        <div class="caption">
+          <p>React Infinity Run</p>
+          <h1 style="text-transform: uppercase;">
+            Designed to help reduce injury
+          </h1>
+          <button id="go-shop">Shop</button>
+        </div>
+      </div>
+      <div class="yoga-collection">
+        <h4>for your workout</h4>
+        <div class="row">
+          <div class="col-md">
+            <img
+              src="https://static.nike.com/a/images/w_835,c_limit/b14a3110-38c6-4686-a95a-b489e116a3b1/nike-just-do-it.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md">
+            <img
+              src="https://static.nike.com/a/images/w_835,c_limit/fff98e5d-e76e-46df-a4e4-671c7dd556e8/nike-just-do-it.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="summer-essentials">
+        <h4>summer essentials</h4>
+        <a href="#" style="display: inline-block;">Shop</a>
+        <div
+          class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-freemode"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide-active">
+              <a href=""
+                ><img
+                  src="https://static.nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/i1-12c05a12-962e-448f-9e1c-98795c7510bf/air-max-verona-womens-shoe-JF64LJ.jpg"
+                  alt=""
+                />
+                <div class="summer-products">
+                  <h5>nike air max verona</h5>
+                  <p>women's shoe</p>
+                  <p><span>$130</span></p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-next">
+              <img src="https://static.nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/71a31b15-d464-48b5-a0df-80a6bc20c69c/air-max-2090-mens-shoe-3pVM46.jpg" alt="">
+          </div>
+        </div>
+      </div>
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/swiper/js/swiper.min.js"></script>
