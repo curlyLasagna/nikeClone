@@ -90,6 +90,15 @@ footer {
   background-color: #111;
 }
 
+#go-shop {
+  color: #111;
+  border-radius: 40%;
+  border: none;
+  background: #fff;
+  padding: 8px 28px;
+  width: 4rem;
+}
+
 #sign-up {
   text-decoration: none;
   color: #757575;
