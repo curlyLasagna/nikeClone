@@ -1,26 +1,16 @@
-*:not(.covid-banner) {
+* {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
-  background: #fff;
   color: #111;
   text-transform: capitalize;
 }
 
 img {
+  object-fit: cover;
   max-width: 100%;
-  height: 80%;
-}
-
-a {
-  color: inherit;
-  background: inherit;
-  text-decoration: underline;
-}
-
-.container {
-
+  height: 100%;
 }
 
 .links {
@@ -29,12 +19,13 @@ a {
 }
 
 .covid-banner {
+  font-size: 14px;
   background: #f7f7f7;
   color: #242424;
   padding: 10px;
-  position: absolute;
+  position: fixed;
   top: 0px;
-  /* z-index: 1000; */
+  z-index: 1000;
   width: 100%;
   text-align: center;
   height: 45px;
@@ -44,32 +35,21 @@ a {
   box-sizing: border-box;
 }
 
-.covid-banner a {
-  text-decoration: underline;
+.top-section {
+  width: 100%;
 }
 
-.float-left ul li{
-  padding: 0;
-  /* border-right: 1px solid black;
-  border-bottom: 1px solid black; */
+.sticky-top {
+  top: 45px;
+}
+
+.covid-banner a {
+  text-decoration: underline;
+  color: inherit;
 }
 
 .header-selections {
   margin-left: 20%;
-}
-
-.navbar {
-  top: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-.mx-auto {
-  display: inline-flex;
-}
-
-.mx-auto.a:hover {
-
 }
 
 .jumbotron {
@@ -83,14 +63,20 @@ a {
 .home-pic {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 700px;
+  background-color: #cccccc;
 }
 
 .caption {
   position: absolute;
   top: 40px;
   left: 40px;
-  background-color: transparent;
+  width: 26%;
+}
+
+div.caption * {
+  background: none;
+  color: #f7f7f7;
 }
 
 .yoga-collection img {
