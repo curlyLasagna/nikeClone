@@ -21,11 +21,11 @@
     <title>Nike. Just Do It. Nike.com</title>
   </head>
   <body>
+    <div class="navbar navbar-expand-lg fixed-top">
     <div class="covid-banner">
       Nike Statement on COVID-19 <a class="links" href="#">View Here</a>
     </div>
-    <div class="navbar navbar-expand-lg">
-      <div class="float-left">
+      <div class="float-left fixed-top">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a id="sign-up" class="nav-link" href="#">Join us</a>
@@ -42,7 +42,7 @@
           </li>
         </ul>
       </div>
-      <div class="navbar-collapse collapse">
+      <div class="navbar-collapse collapse fixed-top">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="">Join/Log In To Nike Member Profile</a>
@@ -59,7 +59,7 @@
         </ul>
       </div>
     </div>
-    <div class="navbar navbar-expand-lg">
+    <div class="navbar navbar-expand-lg fixed-top">
       <a href="#" class="navbar-brand"
         ><img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png"
@@ -67,14 +67,16 @@
           height="25"
           alt=""
       /></a>
-      <ul class="mx-auto">
-        <li class="nav-item"><a href="" class="nav-link">New Releases</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Men</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Women</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Kids</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Customize</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Sale</a></li>
-      </ul>
+      <div class="header-selections">
+        <ul class="mx-auto">
+            <li class="nav-item"><a href="" class="nav-link">New Releases</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Men</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Women</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Kids</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Customize</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Sale</a></li>
+        </ul>
+      </div>
       <form action="" class="form-inline my-2my-lg-0 my-lg-0">
         <input
           type="text"
@@ -105,13 +107,13 @@
       <div class="yoga-collection">
         <h4>for your workout</h4>
         <div class="row">
-          <div class="col-md">
+          <div class="col-md-6" style="padding-right: 4px;">
             <img
               src="https://static.nike.com/a/images/w_835,c_limit/b14a3110-38c6-4686-a95a-b489e116a3b1/nike-just-do-it.jpg"
               alt=""
             />
           </div>
-          <div class="col-md">
+          <div class="col-md-6" style="padding-left: 4px">
             <img
               src="https://static.nike.com/a/images/w_835,c_limit/fff98e5d-e76e-46df-a4e4-671c7dd556e8/nike-just-do-it.jpg"
               alt=""
@@ -132,20 +134,41 @@
                   src="https://static.nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/i1-12c05a12-962e-448f-9e1c-98795c7510bf/air-max-verona-womens-shoe-JF64LJ.jpg"
                   alt=""
                 />
-                <div class="summer-products">
+                <div class="product-info">
                   <h5>nike air max verona</h5>
                   <p>women's shoe</p>
                   <p><span>$130</span></p>
                 </div>
               </a>
             </div>
-          </div>
-          <div class="swiper-slide swiper-slide-next">
-              <img src="https://static.nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/71a31b15-d464-48b5-a0df-80a6bc20c69c/air-max-2090-mens-shoe-3pVM46.jpg" alt="">
+            <div class="swiper-slide swiper-slide-next">
+              <a href="#">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/71a31b15-d464-48b5-a0df-80a6bc20c69c/air-max-2090-mens-shoe-3pVM46.jpg"
+                  alt=""
+                />
+              <div class="product-info">
+                  <h5>nike air max 2090</h5>
+                  <p>men's she</p>
+                  <p><span>$150</span></p>
+              </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
+      <div class="trending-section">
+        <h4>trending now</h4>
+        <div class="row">
+            <div class="col-md-6"><a href="#"><img src="https://static.nike.com/a/images/h_700,c_limit/1d0cbafd-7a20-4051-883b-a685f88c3706/nike-just-do-it.jpg" alt=""></a></div>
+            <div class="col-md-6"><a href="#"><img src="https://static.nike.com/a/images/f_auto/dpr_1.0/h_700,c_limit/d11ea330-8f7a-40c1-bd39-54e63ffcc446/nike-just-do-it.jpg" alt=""></a></div>
+        </div>
+      </div>
+      <div class="summer">
+        <h4>feels like summer</h4>
+      </div>
     </div>
+    <footer></footer>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/swiper/js/swiper.min.js"></script>
   </body>
