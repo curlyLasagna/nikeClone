@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   list-style: none;
   text-decoration: none;
   color: #111;
@@ -48,16 +48,16 @@ img {
   color: inherit;
 }
 
-.header-selections {
-  margin-left: 20%;
+.swiper-container {
+  text-align: center;
+  background: #f7f7f7;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  height: 58px;
 }
 
-.jumbotron {
-  text-align: center;
-  box-shadow: inset #e5e5e5;
-  height: 20px;
-  background: #f7f7f7;
-  color: #242424;
+.header-selections {
+  margin-left: 20%;
 }
 
 .home-pic {
@@ -71,7 +71,8 @@ img {
   position: absolute;
   top: 40px;
   left: 40px;
-  width: 26%;
+  width: 50%;
+  word-break: keep-all;
 }
 
 div.caption * {
@@ -96,7 +97,7 @@ footer {
   border: none;
   background: #fff;
   padding: 8px 28px;
-  width: 4rem;
+  width: 20%;
 }
 
 #sign-up {
